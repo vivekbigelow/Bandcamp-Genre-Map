@@ -14,7 +14,7 @@ const Index = () => (
       alignItems="center">
 <ChakraLink
     isExternal
-    href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui"
+    href="https://github.com/vivekbigelow/Bandcamp-Genre-Map"
     flexGrow={3}
     mx={2}
 >

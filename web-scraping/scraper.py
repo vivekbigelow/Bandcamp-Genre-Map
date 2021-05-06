@@ -141,7 +141,7 @@ def convertDate(dateArray):
 
 def getLocationCoords(location):
     coords = []
-    APIKEY = 'AIzaSyC0B05XnH-PvxOsus1k2halxIhWQZ1nLsk'
+    APIKEY = 'YOUR KEY'
     response = requests.get(
     'https://maps.googleapis.com/maps/api/geocode/json',
      params= {'address' :'%s'%(location),
@@ -423,9 +423,9 @@ def addAlbumToDb(album):
 #URL = 'https://disasterstock.bandcamp.com/album/stimulus-check-2'
 #URL = 'https://wetcassettes.bandcamp.com/album/ok-sat-n'
 #URL = "https://playland.bandcamp.com/album/playland-2"
-#URL = "https://mutantacademyrva.bandcamp.com/album/big-fly-digital"
+URL = "https://mutantacademyrva.bandcamp.com/album/big-fly-digital"
 #URL = "https://halfshellrecords.bandcamp.com/album/moonstoners"
-URL = "https://caspermcfadden.bandcamp.com/album/original-soundtrack"
+#URL = "https://caspermcfadden.bandcamp.com/album/original-soundtrack"
 #page = requests.get(URL)
 #soup = BeautifulSoup(page.content, 'html.parser')
 
